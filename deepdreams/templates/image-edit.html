@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="row"> <!-- fullWidth -->
+  <!-- 
+  <div class="large-3 columns sidebar">
+    <div id="sidebar-bg">
+    </div>
+    <aside class="sidebar">
+      <h3> Sidebar </h3>
+      <article id="widget_1" class="widget">...</article>
+      <article id="widget_2" class="widget">...</article>
+      <article id="widget_3" class="widget">...</article>
+    </aside>
+  </div>
+ -->
+
+  <div class="large-12 columns forum">
+    
+      <article>
+        <header>
+          <div class="article-header-bg">
+	    <img src="/media/clouds.jpg" />
+	  </div>
+          <div class="clearfix"></div>
+        </header>
+      </article>
+
+      <div class="panel" id="main-call-to-action">
+          <!-- <input value="Image Url" class="left" style="width: 64%;"/> -->
+          <button class="button right" style="margin:0 20px; width:auto;"> Save to gallery </button>	  
+          <button class="button right" style="width:auto;"> Update </button>
+        <div class="clearfix"></div>
+      </div>
+      
+  </div>
+</div>
+
+{% endblock %}
